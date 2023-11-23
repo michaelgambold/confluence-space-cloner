@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "confluence-space-cloner"
+version = "0.1.0"
+description = ""
+authors = ["Michael Gambold <7439294+michaelgambold@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
